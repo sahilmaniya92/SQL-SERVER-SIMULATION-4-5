@@ -1,0 +1,3 @@
+Owners:
+- Dhruv: failed_product_review_cursor.sql (L5-T11)
+- Kelvin: inspection_notification_cursor.sql (L5-T13)

@@ -1,0 +1,3 @@
+Owners:
+- Sahashri: inspection_batch_processing.sql (L5-T6)
+- Kelvin: inspection_category_management.sql (L5-T7)

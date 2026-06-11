@@ -1,0 +1,23 @@
+# Excel lock files
+~$*.xlsx
+~$*.xlsm
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets
+.env
+*.env
+credentials.json
+
+# SQL Server local files
+*.bak
+*.mdf
+*.ldf

@@ -1,0 +1,5 @@
+Owners:
+- Hassana: inspection_request_registration.sql (L4-T2), failed_inspection_queue.sql (L5-T10)
+- Parth: error_log.sql (L5-T5)
+- Lien: product_release_review.sql (L5-T12)
+- Kelvin: notification_log.sql (L5-T13)
