@@ -1,2 +1,2 @@
-Owner: Josovo
+Owner: Joshua
 Screenshots: #11 vProductInspectionSummary, #12 CTE quality statistics
