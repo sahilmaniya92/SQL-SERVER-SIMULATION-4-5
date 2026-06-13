@@ -16,9 +16,9 @@
 |---|------|------|-------------|-----------|-------------|
 | 1 | Hassana | Schema & Foundation Lead | L4-T1, L4-T2, L5-T10 | 20 | _TBD_ |
 | 2 | Sahashri | Report & Batch Developer | L4-T10, L5-T6 | 12 | _TBD_ |
-| 3 | Brain | UDF & Control Flow Developer | L4-T3, L5-T3, L5-T4 | 6 | _TBD_ |
+| 3 | Brian | UDF & Control Flow Developer | L4-T3, L5-T3, L5-T4 | 6 | _TBD_ |
 | 4 | Parth | Stored Proc & Error Handling | L4-T5, L5-T5 | 11 | _TBD_ |
-| 5 | Josovo | Views & Analytics Developer | L4-T6, L4-T7, L5 support | 6 | _TBD_ |
+| 5 | Joshua | Views & Analytics Developer | L4-T6, L4-T7, L5 support | 6 | _TBD_ |
 | 6 | Lien | TVF & Table Developer | L4-T4, L5-T12 | 6 | _TBD_ |
 | 7 | Kelvin | Window Reports & Notification | L4-T8, L5-T7, L5-T13 | 6 | _TBD_ |
 | 8 | Dhruv | Subquery & Cursor Developer | L4-T9, L5-T11 | 11 | _TBD_ |
@@ -36,11 +36,11 @@ SQL-SERVER-SIMULATION-4-5/
 ├── scripts/
 │   ├── setup/                  ← Hassana (L4-T1)
 │   ├── tables/                 ← Hassana, Parth, Lien, Kelvin
-│   ├── functions/              ← Brain, Lien
+│   ├── functions/              ← Brian, Lien
 │   ├── procedures/             ← Parth
-│   ├── views/                  ← Josovo
-│   ├── reporting/              ← Josovo, Sahashri, Kelvin, Dhruv
-│   ├── controlflow/            ← Brain
+│   ├── views/                  ← Joshua
+│   ├── reporting/              ← Joshua, Sahashri, Kelvin, Dhruv
+│   ├── controlflow/            ← Brian
 │   ├── errorhandling/          ← Parth
 │   ├── temporary_objects/      ← Sahashri, Kelvin
 │   ├── cursors/                ← Dhruv, Kelvin
@@ -50,9 +50,9 @@ SQL-SERVER-SIMULATION-4-5/
 ├── screenshots/
 │   ├── Hassana/                ← screenshots #1–3
 │   ├── Sahashri/               ← screenshots #4–5
-│   ├── Brain/                  ← screenshots #6–8
+│   ├── Brian/                  ← screenshots #6–8
 │   ├── Parth/                  ← screenshots #9–10
-│   ├── Josovo/                 ← screenshots #11–12
+│   ├── Joshua/                 ← screenshots #11–12
 │   ├── Lien/                   ← screenshots #13–14
 │   ├── Kelvin/                 ← screenshots #15–17
 │   ├── Dhruv/                  ← screenshots #18–20
@@ -75,13 +75,13 @@ SQL-SERVER-SIMULATION-4-5/
 | | L5-T10 | `failed_inspection_queue.sql` | `scripts/tables/` |
 | **Sahashri** | L4-T10 | `inspection_product_detail_report.sql` | `scripts/reporting/` |
 | | L5-T6 | `inspection_batch_processing.sql` | `scripts/temporary_objects/` |
-| **Brain** | L4-T3 | `fn_InspectionScoreClass.sql` | `scripts/functions/` |
+| **Brian** | L4-T3 | `fn_InspectionScoreClass.sql` | `scripts/functions/` |
 | | L5-T3 | `inspection_result_classification.sql` | `scripts/controlflow/` |
 | | L5-T4 | `monthly_inspection_schedule.sql` | `scripts/controlflow/` |
 | **Parth** | L4-T5 | `usp_GetInspectionRequests.sql` | `scripts/procedures/` |
 | | L5-T5 | `error_log.sql` | `scripts/tables/` |
 | | L5-T5 | `inspection_error_logging.sql` | `scripts/errorhandling/` |
-| **Josovo** | L4-T6 | `vProductInspectionSummary.sql` | `scripts/views/` |
+| **Joshua** | L4-T6 | `vProductInspectionSummary.sql` | `scripts/views/` |
 | | L4-T6 | `vw_PendingInspections.sql` | `scripts/views/` |
 | | L4-T7 | `product_quality_statistics.sql` | `scripts/reporting/` |
 | **Lien** | L4-T4 | `fn_GetProductInspectionData.sql` | `scripts/functions/` |
@@ -111,13 +111,13 @@ Each member uploads screenshots to their folder. **Sahil** compiles all 22 befor
 | 3 | **Hassana** | FailedInspectionQueue data | L5-T10 | `screenshots/Hassana/` |
 | 4 | **Sahashri** | JOIN report output | L4-T10 | `screenshots/Sahashri/` |
 | 5 | **Sahashri** | #InspectionBatch temp table | L5-T6 | `screenshots/Sahashri/` |
-| 6 | **Brain** | Scalar UDF test | L4-T3 | `screenshots/Brain/` |
-| 7 | **Brain** | IF/ELSE classification | L5-T3 | `screenshots/Brain/` |
-| 8 | **Brain** | WHILE monthly schedule | L5-T4 | `screenshots/Brain/` |
+| 6 | **Brian** | Scalar UDF test | L4-T3 | `screenshots/Brian/` |
+| 7 | **Brian** | IF/ELSE classification | L5-T3 | `screenshots/Brian/` |
+| 8 | **Brian** | WHILE monthly schedule | L5-T4 | `screenshots/Brian/` |
 | 9 | **Parth** | Stored procedure output | L4-T5 | `screenshots/Parth/` |
 | 10 | **Parth** | ErrorLog contents | L5-T5 | `screenshots/Parth/` |
-| 11 | **Josovo** | vProductInspectionSummary | L4-T6 | `screenshots/Josovo/` |
-| 12 | **Josovo** | CTE quality statistics | L4-T7 | `screenshots/Josovo/` |
+| 11 | **Joshua** | vProductInspectionSummary | L4-T6 | `screenshots/Joshua/` |
+| 12 | **Joshua** | CTE quality statistics | L4-T7 | `screenshots/Joshua/` |
 | 13 | **Lien** | TVF output | L4-T4 | `screenshots/Lien/` |
 | 14 | **Lien** | ProductReleaseReview table | L5-T12 | `screenshots/Lien/` |
 | 15 | **Kelvin** | Window function ranking | L4-T8 | `screenshots/Kelvin/` |
@@ -129,7 +129,7 @@ Each member uploads screenshots to their folder. **Sahil** compiles all 22 befor
 | 21 | **Sahil** | deploy_lab4.sql success | L4-T12 | `screenshots/Sahil/` |
 | 22 | **Sahil** | deploy_all.sql success | L5-T14 | `screenshots/Sahil/` |
 
-**Team:** Hassana · Sahashri · Brain · Parth · Josovo · Lien · Kelvin · Dhruv · Sahil
+**Team:** Hassana · Sahashri · Brian · Parth · Joshua · Lien · Kelvin · Dhruv · Sahil
 
 ```powershell
 git add screenshots/YourName/
@@ -157,11 +157,11 @@ Open a **Pull Request** → Sahil merges to `main`.
 | Day | Who pushes first |
 |-----|------------------|
 | 1 | **Hassana** — L4-T1, L4-T2 (blocks everyone) |
-| 2 | Brain, Parth, Josovo, Lien — L4-T3–T7 |
+| 2 | Brian, Parth, Joshua, Lien — L4-T3–T7 |
 | 3 | Kelvin, Dhruv, Sahashri — L4-T8–T10 |
 | 4 | **Sahil** — L4-T12–14 mid deploy |
 | 6 | Hassana, Sahashri, Lien — L5-T10, T6, T12 |
-| 7 | Brain, Parth, Kelvin — L5-T3–T5, T7 |
+| 7 | Brian, Parth, Kelvin — L5-T3–T5, T7 |
 | 9 | **Dhruv** L5-T11, then **Kelvin** L5-T13 |
 | 11–12 | **Sahil** — L5-T14 final deploy + submit (**LAST**) |
 
