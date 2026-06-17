@@ -150,7 +150,7 @@ git commit -m "L4-T1: add schema script (Hassana)"
 git push -u origin feature/yourname-task
 ```
 
-Open a **Pull Request** → Sahil merges to `main`.
+
 
 ### Push order
 
