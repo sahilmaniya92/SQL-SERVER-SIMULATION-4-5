@@ -1,2 +1,0 @@
-Owner: Hassana
-Screenshots: #1 Schema validation, #2 InspectionRequests data, #3 FailedInspectionQueue data

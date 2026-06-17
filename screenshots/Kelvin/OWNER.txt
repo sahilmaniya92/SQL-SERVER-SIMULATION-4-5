@@ -1,2 +1,0 @@
-Owner: Kelvin
-Screenshots: #15 Window function ranking, #16 @InspectionCategories, #17 NotificationLog contents

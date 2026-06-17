@@ -1,2 +1,0 @@
-Owner: Josovo | L4-T6
-Files: vProductInspectionSummary.sql, vw_PendingInspections.sql

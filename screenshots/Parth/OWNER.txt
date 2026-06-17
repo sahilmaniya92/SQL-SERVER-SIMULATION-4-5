@@ -1,2 +1,0 @@
-Owner: Parth
-Screenshots: #9 Stored procedure output, #10 ErrorLog contents

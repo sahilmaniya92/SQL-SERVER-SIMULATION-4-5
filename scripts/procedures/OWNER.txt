@@ -1,2 +1,0 @@
-Owner: Parth | L4-T5
-File: usp_GetInspectionRequests.sql

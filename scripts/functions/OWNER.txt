@@ -1,3 +1,0 @@
-Owners:
-- Brain: fn_InspectionScoreClass.sql (L4-T3)
-- Lien: fn_GetProductInspectionData.sql (L4-T4)
