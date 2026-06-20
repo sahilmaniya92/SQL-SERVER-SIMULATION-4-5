@@ -20,7 +20,7 @@ CREATE OR ALTER FUNCTION Ops.fn_EffectiveUnitPrice
     -- The currency conversion rate to use.
     -- Defaults to 1.0, which means "no conversion" (used when the order currency is already USD).
     -- Callers must supply the correct nearest-prior rate from Sales.CurrencyRate.
-    -- TDD §4.1: "Currency conversion: Use the nearest prior currency rate on or before the order date for the pair of currencies."
+    -- Technical Design Document §4.1: "Currency conversion: Use the nearest prior currency rate on or before the order date for the pair of currencies."
     @CurrencyRate DECIMAL(19,8) = 1.0,
 
     -- The promotional discount as a decimal fraction (e.g., 0.10 = 10% off).
@@ -33,13 +33,13 @@ WITH SCHEMABINDING      -- Prevents the tables this function depends on from bei
                         -- Development Plan §9.1: "functions are deterministic and side‑effect free"
 AS
 BEGIN
-    -- First, convert the list price into the order's currency.
+    -- Converting the list price into the order's currency.
     -- Technical Design Document §4.1: "Base unit price = list price multiplied by currency rate (or unchanged if already in the header currency)."
     -- If a currency rate isn't supplied (NULL), we assume 1.0 to avoid a NULL result.
     DECLARE @BaseUnitPrice DECIMAL(19,4) =
         @ListPrice * ISNULL(@CurrencyRate, 1.0);
 
-    -- Now subtract the promotion discount.
+    -- Subtracting the promotion discount.
     -- The formula is: base price * (1 - promotion fraction).
     -- Business Requirements Document §7 BR-03: "Pricing follows base → discount → tax; always explainable."
     -- If the promotion percentage is NULL for any reason, treat it as 0% (no discount).
