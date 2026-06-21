@@ -16,10 +16,10 @@
 |---|------|------|-------------|-----------|-------------|
 | 1 | Hassana | Schema & Foundation Lead | L4-T1, L4-T2, L5-T10 | 20 | _TBD_ |
 | 2 | Sahashri | Report & Batch Developer | L4-T10, L5-T6 | 12 | _TBD_ |
-| 3 | Brian | UDF & Control Flow Developer | L4-T3, L5-T3, L5-T4 | 6 | _TBD_ |
+| 3 | Brian | UDF & black-box test | TDD 4.1 (scalar UDF part), TDD 10.1 | 6 | N10003819 |
 | 4 | Parth | Stored Proc & Error Handling | L4-T5, L5-T5 | 11 | _TBD_ |
 | 5 | Joshua | Views & Analytics Developer | L4-T6, L4-T7, L5 support | 6 | _TBD_ |
-| 6 | Lien | TVF & Table Developer | L4-T4, L5-T12 | 6 | _TBD_ |
+| 6 | Lien | TVF & Table Developer | L4-T4, TDD 3.1 | 6 | _TBD_ |
 | 7 | Kelvin | Window Reports & Notification | L4-T8, L5-T7, L5-T13 | 6 | _TBD_ |
 | 8 | Dhruv | Subquery & Cursor Developer | L4-T9, L5-T11 | 11 | _TBD_ |
 | 9 | Sahil | Final Deployment (**LAST**) | L4-T12–14, L5-T14 | 11 | _TBD_ |
@@ -75,9 +75,8 @@ SQL-SERVER-SIMULATION-4-5/
 | | L5-T10 | `failed_inspection_queue.sql` | `scripts/tables/` |
 | **Sahashri** | L4-T10 | `inspection_product_detail_report.sql` | `scripts/reporting/` |
 | | L5-T6 | `inspection_batch_processing.sql` | `scripts/temporary_objects/` |
-| **Brian** | L4-T3 | `fn_InspectionScoreClass.sql` | `scripts/functions/` |
-| | L5-T3 | `inspection_result_classification.sql` | `scripts/controlflow/` |
-| | L5-T4 | `monthly_inspection_schedule.sql` | `scripts/controlflow/` |
+| **Brian** | TDD 4.1 (scalar UDF) | `fn_EffectiveUnitPrice.sql` | `scripts/functions/` |
+| | TDD 10.1 | `test_functions.sql` | `scripts/tests/` |
 | **Parth** | L4-T5 | `usp_GetInspectionRequests.sql` | `scripts/procedures/` |
 | | L5-T5 | `error_log.sql` | `scripts/tables/` |
 | | L5-T5 | `inspection_error_logging.sql` | `scripts/errorhandling/` |
@@ -111,9 +110,8 @@ Each member uploads screenshots to their folder. **Sahil** compiles all 22 befor
 | 3 | **Hassana** | FailedInspectionQueue data | L5-T10 | `screenshots/Hassana/` |
 | 4 | **Sahashri** | JOIN report output | L4-T10 | `screenshots/Sahashri/` |
 | 5 | **Sahashri** | #InspectionBatch temp table | L5-T6 | `screenshots/Sahashri/` |
-| 6 | **Brian** | Scalar UDF test | L4-T3 | `screenshots/Brian/` |
-| 7 | **Brian** | IF/ELSE classification | L5-T3 | `screenshots/Brian/` |
-| 8 | **Brian** | WHILE monthly schedule | L5-T4 | `screenshots/Brian/` |
+| 6 | **Brian** | Scalar UDF test | TDD 4.1 (scalar UDF) | `screenshots/Brian/` |
+| 7 | **Brian** | Black-box PASS/FAIL | TDD 10.1 | `screenshots/Brian/` |
 | 9 | **Parth** | Stored procedure output | L4-T5 | `screenshots/Parth/` |
 | 10 | **Parth** | ErrorLog contents | L5-T5 | `screenshots/Parth/` |
 | 11 | **Joshua** | vProductInspectionSummary | L4-T6 | `screenshots/Joshua/` |
