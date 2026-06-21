@@ -16,7 +16,7 @@
 |---|------|------|-------------|-----------|-------------|
 | 1 | Hassana | Schema & Foundation Lead | L4-T1, L4-T2, L5-T10 | 20 | _TBD_ |
 | 2 | Sahashri | Report & Batch Developer | L4-T10, L5-T6 | 12 | _TBD_ |
-| 3 | Brian | UDF & black-box test | TDD 4.1 (scalar UDF part), TDD 10.1 | 6 | N10003819 |
+| 3 | Brian | UDF & black-box test | TDD 4.1 (scalar UDF), TDD 10.1 | 6 | N10003819 |
 | 4 | Parth | Stored Proc & Error Handling | L4-T5, L5-T5 | 11 | _TBD_ |
 | 5 | Joshua | Views & Analytics Developer | L4-T6, L4-T7, L5 support | 6 | _TBD_ |
 | 6 | Lien | TVF & Table Developer | L4-T4, TDD 3.1 | 6 | _TBD_ |
