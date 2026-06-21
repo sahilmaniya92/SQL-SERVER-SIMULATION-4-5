@@ -19,7 +19,7 @@
 | 3 | Brian | UDF & black-box test | TDD 4.1 (scalar UDF), TDD 10.1 | 6 | N10003819 |
 | 4 | Parth | Stored Proc & Error Handling | L4-T5, L5-T5 | 11 | _TBD_ |
 | 5 | Joshua | Views & Analytics Developer | L4-T6, L4-T7, L5 support | 6 | _TBD_ |
-| 6 | Lien | TVF & Table Developer | L4-T4, TDD 3.1 | 6 | _TBD_ |
+| 6 | Lien | TVF & Table Developer | TDD 4.1 (TVF), TDD 3.1 | 6 | _TBD_ |
 | 7 | Kelvin | Window Reports & Notification | L4-T8, L5-T7, L5-T13 | 6 | _TBD_ |
 | 8 | Dhruv | Subquery & Cursor Developer | L4-T9, L5-T11 | 11 | _TBD_ |
 | 9 | Sahil | Final Deployment (**LAST**) | L4-T12–14, L5-T14 | 11 | _TBD_ |
@@ -83,8 +83,8 @@ SQL-SERVER-SIMULATION-4-5/
 | **Joshua** | L4-T6 | `vProductInspectionSummary.sql` | `scripts/views/` |
 | | L4-T6 | `vw_PendingInspections.sql` | `scripts/views/` |
 | | L4-T7 | `product_quality_statistics.sql` | `scripts/reporting/` |
-| **Lien** | L4-T4 | `fn_GetProductInspectionData.sql` | `scripts/functions/` |
-| | L5-T12 | `product_release_review.sql` | `scripts/tables/` |
+| **Lien** | TDD 4.1 (TVF) | `tvf_PriceBreakdown.sql` | `scripts/functions/` |
+| | TDD 3.1 | `table_InventoryDelta.sql` | `scripts/tables/` |
 | **Kelvin** | L4-T8 | `product_ranking_report.sql` | `scripts/reporting/` |
 | | L5-T7 | `inspection_category_management.sql` | `scripts/temporary_objects/` |
 | | L5-T13 | `notification_log.sql` | `scripts/tables/` |
@@ -116,8 +116,8 @@ Each member uploads screenshots to their folder. **Sahil** compiles all 22 befor
 | 10 | **Parth** | ErrorLog contents | L5-T5 | `screenshots/Parth/` |
 | 11 | **Joshua** | vProductInspectionSummary | L4-T6 | `screenshots/Joshua/` |
 | 12 | **Joshua** | CTE quality statistics | L4-T7 | `screenshots/Joshua/` |
-| 13 | **Lien** | TVF output | L4-T4 | `screenshots/Lien/` |
-| 14 | **Lien** | ProductReleaseReview table | L5-T12 | `screenshots/Lien/` |
+| 13 | **Lien** | TVF output | TDD 4.1 | `screenshots/Lien/` |
+| 14 | **Lien** | InventoryDelta table | TDD 3.1 | `screenshots/Lien/` |
 | 15 | **Kelvin** | Window function ranking | L4-T8 | `screenshots/Kelvin/` |
 | 16 | **Kelvin** | @InspectionCategories | L5-T7 | `screenshots/Kelvin/` |
 | 17 | **Kelvin** | NotificationLog contents | L5-T13 | `screenshots/Kelvin/` |
