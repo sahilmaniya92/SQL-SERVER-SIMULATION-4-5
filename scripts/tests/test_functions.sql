@@ -12,7 +12,7 @@ GO
 -- ---- Test 1: scalar function, NO promotion, currency rate 1.0 ----
 -- Expectation: price is unchanged (100 in -> 100 out). Proves the "no conversion, no discount" path.
 DECLARE @v DECIMAL(19,4) = Ops.fn_EffectiveUnitPrice(100.0000, 1.0, 0.0);
--- Compare against the hand-calculated answer (Development Plan §6.1: "exact numbers for curated cases").
+-- Expected 100.0000: 100 * 1.0 * (1 - 0) = no conversion, no discount.
 PRINT 'fn no-promo: ' + CASE WHEN @v = 100.0000 THEN 'PASS' ELSE 'FAIL got ' + CONVERT(VARCHAR(40), @v) END;
 GO
 
@@ -21,6 +21,7 @@ GO
 -- Business Requirements Document §7 BR-03: "Pricing follows base -> discount -> tax; always explainable."
 -- @v is re-declared because each batch (after GO) is a fresh variable scope.
 DECLARE @v DECIMAL(19,4) = Ops.fn_EffectiveUnitPrice(100.0000, 1.0, 0.10);
+-- Expected 90.0000: 100 * (1 - 0.10). Development Plan Iteration 3: "outputs match hand-calculated examples."
 PRINT 'fn 10%-promo: ' + CASE WHEN @v = 90.0000 THEN 'PASS' ELSE 'FAIL got ' + CONVERT(VARCHAR(40), @v) END;
 GO
 
