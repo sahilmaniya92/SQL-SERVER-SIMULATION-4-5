@@ -110,7 +110,7 @@ Each member uploads screenshots to their folder. **Sahil** compiles all 22 befor
 | 3 | **Hassana** | FailedInspectionQueue data | L5-T10 | `screenshots/Hassana/` |
 | 4 | **Sahashri** | JOIN report output | L4-T10 | `screenshots/Sahashri/` |
 | 5 | **Sahashri** | #InspectionBatch temp table | L5-T6 | `screenshots/Sahashri/` |
-| 6 | **Brian** | Scalar UDF test | TDD 4.1 (scalar UDF) | `screenshots/Brian/` |
+| 6 | **Brian** | Scalar UDF test | TDD 4.1 | `screenshots/Brian/` |
 | 7 | **Brian** | Black-box PASS/FAIL | TDD 10.1 | `screenshots/Brian/` |
 | 9 | **Parth** | Stored procedure output | L4-T5 | `screenshots/Parth/` |
 | 10 | **Parth** | ErrorLog contents | L5-T5 | `screenshots/Parth/` |
