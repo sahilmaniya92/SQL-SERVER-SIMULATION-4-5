@@ -1,12 +1,11 @@
 /*===============================================================
   OrderOps — Scalar function Ops.fn_EffectiveUnitPrice
-  Reference  : Technical Design Document §4.1 ; Mappings and Formula §5.1 ; Development Plan Iteration 3
+  Reference  : Development Plan §5 Iteration 3, as specified by Technical Design Document §4.1 Formulas 1-3
   Purpose    : Deterministic effective unit price for one line, given already-resolved inputs (list price, currency rate, promo).
   Formula    : BaseUnitPrice    = ListPrice * CurrencyRate
                EffectiveUnitPrice = BaseUnitPrice * (1 - PromoPct)
   Owner      : Brian (scalar UDF — analog of L4-T3 (fn_InspectionScoreClass.sql) assigned by Sahil).
 ===============================================================*/
-
 USE AdventureWorks2022;
 GO
 
