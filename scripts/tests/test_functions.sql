@@ -1,6 +1,6 @@
 /*===============================================================
   OrderOps — Unit tests for Ops.fn_EffectiveUnitPrice & Ops.tvf_PriceBreakdown
-  Reference  : Development Plan §6.1 Iteration 3 ; Technical Design Document §10.1
+  Reference  : Development Plan §5 Iteration 3 ; Technical Design Document §10.1
   Purpose    : Black-box PASS/FAIL assertions for the pricing functions (deterministic, hand-calculated expectations).
   Coverage   : fn_EffectiveUnitPrice (no promo; 10% promo) ; tvf_PriceBreakdown (USD happy path base/tax; missing-currency CUR006).
   Owner      : Brian (function unit tests / IF-ELSE assertions — analog of L5-T3 (inspection_result_classification.sql) assigned by Sahil).
