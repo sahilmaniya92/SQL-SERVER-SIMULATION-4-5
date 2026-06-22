@@ -19,7 +19,7 @@
 | 3 | Brian | UDF & black-box test | TDD 4.1 (scalar UDF), TDD 10.1 | 6 | N10003819 |
 | 4 | Parth | Stored Proc & Error Handling | L4-T5, L5-T5 | 11 | _TBD_ |
 | 5 | Joshua | Views & Analytics Developer | L4-T6, L4-T7, L5 support | 6 | _TBD_ |
-| 6 | Lien | TVF & Table Developer | TDD 4.1 (TVF), TDD 3.1 | 6 | _TBD_ |
+| 6 | Lien | TVF & Table Developer | TDD 4.1 (TVF), TDD 3.1 | 6 | N01704642 |
 | 7 | Kelvin | Window Reports & Notification | L4-T8, L5-T7, L5-T13 | 6 | _TBD_ |
 | 8 | Dhruv | Subquery & Cursor Developer | L4-T9, L5-T11 | 11 | _TBD_ |
 | 9 | Sahil | Final Deployment (**LAST**) | L4-T12–14, L5-T14 | 11 | _TBD_ |
@@ -40,7 +40,8 @@ SQL-SERVER-SIMULATION-4-5/
 │   ├── procedures/             ← Parth
 │   ├── views/                  ← Joshua
 │   ├── reporting/              ← Joshua, Sahashri, Kelvin, Dhruv
-│   ├── controlflow/            ← Brian
+│   ├── controlflow/            ← 
+│   ├── tests/                  ← Brian etc.
 │   ├── errorhandling/          ← Parth
 │   ├── temporary_objects/      ← Sahashri, Kelvin
 │   ├── cursors/                ← Dhruv, Kelvin
