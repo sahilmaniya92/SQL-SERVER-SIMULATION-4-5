@@ -76,16 +76,16 @@ SQL-SERVER-SIMULATION-4-5/
 | | L5-T10 | `failed_inspection_queue.sql` | `scripts/tables/` |
 | **Sahashri** | L4-T10 | `inspection_product_detail_report.sql` | `scripts/reporting/` |
 | | L5-T6 | `inspection_batch_processing.sql` | `scripts/temporary_objects/` |
-| **Brian** | TDD 4.1 (scalar UDF) | `fn_EffectiveUnitPrice.sql` | `scripts/functions/` |
-| | TDD 10.1 | `test_functions.sql` | `scripts/tests/` |
+| **Brian** | Dev. Plan (Iter. 3) - specs: Tech. Design Doc. § 4.1(1-3) | `fn_EffectiveUnitPrice.sql` | `scripts/functions/` |
+| | Tech. Design Doc. § 10.1 | `test_functions.sql` | `scripts/tests/` |
 | **Parth** | L4-T5 | `usp_GetInspectionRequests.sql` | `scripts/procedures/` |
 | | L5-T5 | `error_log.sql` | `scripts/tables/` |
 | | L5-T5 | `inspection_error_logging.sql` | `scripts/errorhandling/` |
 | **Joshua** | L4-T6 | `vProductInspectionSummary.sql` | `scripts/views/` |
 | | L4-T6 | `vw_PendingInspections.sql` | `scripts/views/` |
 | | L4-T7 | `product_quality_statistics.sql` | `scripts/reporting/` |
-| **Lien** | TDD 4.1 (TVF) | `tvf_PriceBreakdown.sql` | `scripts/functions/` |
-| | TDD 3.1 | `table_InventoryDelta.sql` | `scripts/tables/` |
+| **Lien** | Dev. Plan (Iter. 3) - specs: Techn. Design Doc. § 4.1 | `tvf_PriceBreakdown.sql` | `scripts/functions/` |
+| | Tech. Design Doc. § 3.1 - specs: Mpg. & Fmla. (Table 3) | `table_InventoryDelta.sql` | `scripts/tables/` |
 | **Kelvin** | L4-T8 | `product_ranking_report.sql` | `scripts/reporting/` |
 | | L5-T7 | `inspection_category_management.sql` | `scripts/temporary_objects/` |
 | | L5-T13 | `notification_log.sql` | `scripts/tables/` |
@@ -111,14 +111,14 @@ Each member uploads screenshots to their folder. **Sahil** compiles all 22 befor
 | 3 | **Hassana** | FailedInspectionQueue data | L5-T10 | `screenshots/Hassana/` |
 | 4 | **Sahashri** | JOIN report output | L4-T10 | `screenshots/Sahashri/` |
 | 5 | **Sahashri** | #InspectionBatch temp table | L5-T6 | `screenshots/Sahashri/` |
-| 6 | **Brian** | Scalar UDF | TDD 4.1 | `screenshots/Brian/` |
-| 7 | **Brian** | Black-box PASS/FAIL | TDD 10.1 | `screenshots/Brian/` |
+| 6 | **Brian** | Scalar UDF | Dev. Plan Iter. 3 - specs: Tech. Design Doc. § 4.1(1-3) | `screenshots/Brian/` |
+| 7 | **Brian** | Black-box PASS/FAIL | Techn. Design Doc. § 10.1 | `screenshots/Brian/` |
 | 9 | **Parth** | Stored procedure output | L4-T5 | `screenshots/Parth/` |
 | 10 | **Parth** | ErrorLog contents | L5-T5 | `screenshots/Parth/` |
 | 11 | **Joshua** | vProductInspectionSummary | L4-T6 | `screenshots/Joshua/` |
 | 12 | **Joshua** | CTE quality statistics | L4-T7 | `screenshots/Joshua/` |
-| 13 | **Lien** | TVF output | TDD 4.1 | `screenshots/Lien/` |
-| 14 | **Lien** | InventoryDelta table | TDD 3.1 | `screenshots/Lien/` |
+| 13 | **Lien** | TVF output | Dev. Plan (Iter. 3) - specs: Tech. Design Doc. § 4.1 | `screenshots/Lien/` |
+| 14 | **Lien** | InventoryDelta table | Tech. Design Doc. § 3.1 - specs: Mpg. & Fmla. (Table 3) | `screenshots/Lien/` |
 | 15 | **Kelvin** | Window function ranking | L4-T8 | `screenshots/Kelvin/` |
 | 16 | **Kelvin** | @InspectionCategories | L5-T7 | `screenshots/Kelvin/` |
 | 17 | **Kelvin** | NotificationLog contents | L5-T13 | `screenshots/Kelvin/` |
