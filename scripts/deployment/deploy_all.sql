@@ -3,17 +3,7 @@
   deploy_all.sql — Full deploy (Lab 4 + Lab 5)
 ================================================================================
 
-  HOW TO RUN IN SSMS:
-  -------------------
-  1. Connect to SQL Server (e.g. .\SQLEXPRESS)
-  2. Select your database in the dropdown
-  3. Query -> SQLCMD Mode -> ON  (required!)
-  4. Open THIS file and press F5
 
-  HOW TO RUN IN POWERSHELL:
-  -------------------------
-  cd "D:\ITS\SEM-2\SQL SERVER\SIMULATION\simulation 4-5\simulation 4-5\scripts\deployment"
-  sqlcmd -S .\SQLEXPRESS -C -E -d master -i deploy_all.sql
 
   If you moved the project folder, update ScriptRoot below to your scripts path.
 ================================================================================
