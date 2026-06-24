@@ -1,4 +1,4 @@
-/* L4-T10 — Sahashri: validation funnel by error code from BatchLog */
+/* L4-T10 — Sahasri: validation funnel by error code from BatchLog */
 SELECT
     Code,
     Severity,
