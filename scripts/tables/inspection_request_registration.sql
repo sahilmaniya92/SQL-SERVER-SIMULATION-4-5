@@ -50,6 +50,19 @@ BEGIN
 END;
 GO
 
+IF OBJECT_ID(N'OrderOps.TaxRate', N'U') IS NULL
+BEGIN
+    CREATE TABLE OrderOps.TaxRate
+    (
+        TerritoryID   INT           NOT NULL,
+        EffectiveDate DATE          NOT NULL,
+        EndDate       DATE          NULL,
+        TaxRate       DECIMAL(5, 2) NOT NULL,
+        CONSTRAINT PK_OrderOps_TaxRate PRIMARY KEY CLUSTERED (TerritoryID, EffectiveDate)
+    );
+END;
+GO
+
 IF OBJECT_ID(N'OrderOps.ProductStock', N'U') IS NULL
 BEGIN
     CREATE TABLE OrderOps.ProductStock
